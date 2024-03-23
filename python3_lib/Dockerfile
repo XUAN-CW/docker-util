@@ -2,6 +2,8 @@ FROM python:3.12.2-bookworm
 
 WORKDIR /usr/src/app
 
-COPY . .
+#https://pypi.org/project/pixivpy3/#history
+RUN pip3 install pixivpy3==3.7.5
 
-CMD [ "python", "./your-daemon-or-script.py" ]
+
+CMD ["python3"]
