@@ -1,8 +1,10 @@
 ```shell
-docker build . -t python3_lib:0.1
+docker build . -t python3_lib:v1
 ```
 
-
+```shell
+docker run -itd --name python3_lib_v1 --network frpc_nas python3_lib:v1
+```
 
 
 
