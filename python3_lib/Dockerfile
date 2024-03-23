@@ -1,6 +1,6 @@
 FROM python:3.12.2-bookworm
 
-# Update package list and install iputils-ping for the ping command
+# Update package list and install some
 RUN apt-get update -y
 RUN apt-get install -y iputils-ping
 
