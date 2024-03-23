@@ -1,18 +1,15 @@
 FROM python:3.12.2-bookworm
 
-
 # Update package list and install iputils-ping for the ping command
-RUN apt-get update && \
-    apt-get install -y iputils-ping && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
+RUN apt-get update -y
+RUN apt-get install -y iputils-ping
 
-WORKDIR /usr/src/app
-
+# pip3
 #https://pypi.org/project/pixivpy3/#history
 RUN pip3 install pixivpy3==3.7.5
 #https://pypi.org/project/elasticsearch/#history
 RUN pip3 install elasticsearch==8.12.1
 
+WORKDIR /usr/src/app
 
 CMD ["python3"]
