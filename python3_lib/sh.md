@@ -10,6 +10,11 @@ docker run -itd --rm \
   --network frpc_nas \
   -v /share/ssd/program/download-util/pixiv.net/download_pixiv:/app \
   python3_lib:v4
+
+
+docker run -it--rm \
+  --name python3_lib_v4 \
+  python3_lib:v4
 ```
 
 ```shell
