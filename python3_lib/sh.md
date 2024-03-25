@@ -12,7 +12,7 @@ docker run -itd --rm \
   python3_lib:v4
 
 
-docker run -it--rm \
+docker run -itd --rm \
   --name python3_lib_v4 \
   python3_lib:v4
 ```
