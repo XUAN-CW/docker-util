@@ -9,9 +9,9 @@ RUN apt-get install -y iputils-ping
 RUN pip3 install pixivpy3==3.7.5
 #https://pypi.org/project/elasticsearch/#history
 RUN pip3 install elasticsearch==8.12.1
-RUN pip install beautifulsoup4==4.12.3
-RUN pip install requests==2.31.0
-RUN pip install lxml==5.2.0
+RUN pip3 install beautifulsoup4==4.12.3
+RUN pip3 install requests==2.31.0
+RUN pip3 install lxml==5.2.0
 WORKDIR /app
 
 CMD ["python3"]
