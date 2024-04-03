@@ -11,6 +11,11 @@ docker run -itd --rm \
   --network common_network \
   -v /share/ssd/program/download-util/pixiv.net/download_pixiv:/app \
   python3_lib:v4
+
+
+docker run -itd --rm \
+  --name python3_lib_v4 \
+  python3_lib:v4
 ```
 
 ```shell
