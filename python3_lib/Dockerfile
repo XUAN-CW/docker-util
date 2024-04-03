@@ -11,7 +11,7 @@ RUN pip3 install pixivpy3==3.7.5
 RUN pip3 install elasticsearch==8.12.1
 RUN pip3 install beautifulsoup4==4.12.3
 RUN pip3 install requests==2.31.0
-RUN pip3 install lxml==5.2.0
+RUN pip3 install lxml==5.2.1
 WORKDIR /app
 
 CMD ["python3"]
