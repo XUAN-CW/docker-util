@@ -1,4 +1,4 @@
-FROM python:3.12.2-bookworm
+FROM python:3.10.14-bookworm
 
 # Update package list and install some command
 RUN apt-get update -y
