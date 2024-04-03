@@ -17,6 +17,10 @@ docker run -itd --rm \
 docker exec -it python3_lib /bin/bash
 ```
 
+```shell
+docker run -it --rm python:3.10.14-bookworm
+
+```
 
 
 
