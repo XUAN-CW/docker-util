@@ -1,4 +1,5 @@
 ```shell
+docker container stop python3_lib
 docker build . -t python3_lib:v1
 ```
 
