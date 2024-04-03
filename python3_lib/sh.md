@@ -9,7 +9,7 @@ docker run -itd --rm \
   --name python3_lib \
   --network common_network \
   -v /share/ssd/python3:/app \
-  python:3.10.14-bookworm
+  python3_lib:v1
 
 ```
 
